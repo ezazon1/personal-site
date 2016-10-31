@@ -1,4 +1,37 @@
 body {
-  color: blue;
-  background-color: yellow;
+	text-align: center;
+    padding-top: 200px;
+    font-family: Pacifico;
+    font-size: 50px;
+    color: white;
+   }
+
+nav li {
+  display: inline-block;
+}
+
+nav li a { 
+  line-height: 50px;
+  text-decoration: none;
+  color: white;
+  font-family: Muli;
+  font-size: 20px;
+  padding: 0 30px;
+}
+
+nav {
+  background-color: #333333;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+nav ul {
+  margin: 0;
+  text-align: center;
+}
+
+
+body {
+    background-image: url("http://i.imgur.com/qIMjH3f.jpg");
 }
