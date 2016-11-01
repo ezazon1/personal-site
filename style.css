@@ -4,6 +4,7 @@ body {
     font-family: Pacifico;
     font-size: 50px;
     color: white;
+    background-image: url("http://i.imgur.com/qIMjH3f.jpg");
    }
 
 nav li {
@@ -31,7 +32,22 @@ nav ul {
   text-align: center;
 }
 
+.projects img {
+  width: 100%;
+  padding: 20px;  
+  font-family: Muli;
+}
 
-body {
-    background-image: url("http://i.imgur.com/qIMjH3f.jpg");
+.column {
+  float: left;
+  width: 33.3%;
+  background: #333333 no-repeat center fixed;
+  background-size: cover;
+  height: 700px;
+}
+
+
+
+.column-inner {
+  padding: 20px;
 }
