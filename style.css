@@ -5,6 +5,8 @@ body {
     font-size: 50px;
     color: white;
     background-image: url("http://i.imgur.com/qIMjH3f.jpg");
+    background-repeat: no-repeat;
+    background-color: #333333;
    }
 
 nav li {
@@ -32,13 +34,52 @@ nav ul {
   text-align: center;
 }
 
+.intro {
+  padding-bottom: 200px
+}
+
+.about {
+  padding-top: 700px
+}
+
+.column-70 {
+  width: 70%;
+  float: left;
+  height: 500px;
+  background-color: #ddd;
+}
+
+.column-30 {
+  width: 30%;
+  float: left;
+  height: 500px;
+  background-color: grey;
+}
+
+.row:before {
+  display: table;
+  content: "";
+}
+
+.container:after, .row:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+@media (max-width: 700px) {
+  .about {
+    width: 100%;
+  }
+}
+
 .projects {
-  padding-top: 270px;
+  padding-top: 100px;
 }
 
 .projects img {
   width: 100%;
-  padding: 20px;  
+  padding: 10px;  
   font-family: Muli;
 }
 
@@ -47,10 +88,15 @@ nav ul {
   width: 33.3%;
   background: #333333 no-repeat center fixed;
   background-size: cover;
-  height: 700px;
+  height: 400px;
 }
-
 
 .column-inner {
   padding-top: 20px;
+}
+
+@media (max-width: 700px) {
+  .column {
+    width: 100%;
+  }
 }
